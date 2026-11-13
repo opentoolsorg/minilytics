@@ -87,8 +87,8 @@ npx wrangler d1 create minilytics
 ```
 
 If Wrangler asks *"Would you like Wrangler to add it on your behalf?"*, answer **No**. Answer **No** to the optional
-"Cloudflare skills" questions too. Then copy the printed `database_id` and paste it into `wrangler.jsonc`, replacing
-`00000000-0000-0000-0000-000000000000`. There must be exactly **one** entry under `d1_databases`, with `"binding": "DB"`.
+"Cloudflare skills" questions too. Then copy the printed `database_id` and paste it into `wrangler.jsonc`, replacing the
+committed id. That id is the maintainer's production database; swap in your own. There must be exactly **one** entry under `d1_databases`, with `"binding": "DB"`.
 
 **3. Set your password and a signing secret**
 
