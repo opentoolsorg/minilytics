@@ -15,8 +15,8 @@
     {
       "binding": "DB",
       "database_name": "minilytics",
-      // Replace with the id printed by `npx wrangler d1 create minilytics`.
-      "database_id": "00000000-0000-0000-0000-000000000000",
+      // Production D1 for minilytics.princepal.dev. Self-hosting? Replace with the id from `npx wrangler d1 create minilytics`.
+      "database_id": "3b70157a-4ea4-40bf-94d5-5bd0c47fea19",
       "migrations_dir": "migrations"
     }
   ]
